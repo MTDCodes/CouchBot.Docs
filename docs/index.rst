@@ -39,9 +39,9 @@ Want to make a list of your favorite streamers, and get notified when they go li
 - `Picarto <https://picarto.tv>`__
 - `Piczel <https://piczel.tv>`__
 - `Twitch <https://twitch.tv>`__
-- `YouTube <https://youtube.com>`__
 - `Trovo <https://trovo.tv>`__
 - `Theta.tv <https://theta.tv>`__
+- `YouTube <https://youtube.com>`__
 
 .. toctree::
     :maxdepth: 3
