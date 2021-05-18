@@ -36,7 +36,7 @@ An example is the **sutv** channel on Twitch.
      - Example
      - Usage
    * - team
-     - ``!cb team twitch sutv #discord-channel``
+     - ``!cb team sutv #discord-channel``
      - Toggles adding a team to the creators list.
    * - team list
      - ``!cb team list``
