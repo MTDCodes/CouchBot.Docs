@@ -20,7 +20,7 @@ If you have a game or want to announce a game, then use the following settings.
      - Usage
    * - game
      - ``!cb game "Last Epoch" #discord-channel``
-     - Toggles adding a game to the creators list.
+     - Toggles adding a game to the server games list.
    * - game list
      - ``!cb game list``
      - Displays a list of added games.
@@ -37,7 +37,7 @@ An example is the **sutv** channel on Twitch.
      - Usage
    * - team
      - ``!cb team sutv #discord-channel``
-     - Toggles adding a team to the creators list.
+     - Toggles adding a team to the server teams list.
    * - team list
      - ``!cb team list``
      - Displays a list of added teams.
