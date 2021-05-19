@@ -25,8 +25,8 @@ This could be used to advertise your Twitter, display your Discord invite or hav
      - ``!cb command remove "CouchMe"`` 
      - Removes the command, in this instance ``CouchMe``.
    * - command list
-     - ``!cb command list``
-     - Displays a list of the current commands you have programmed.
+     - ``!cb command list [page #]``
+     - Displays a list of the current commands you have programmed. Page # is optional, defaults to 1.
 
 ----------
 Moderation
@@ -98,7 +98,7 @@ Use the following commands to configure and view various other bits and bobs.
      - Give a link to an image to find out.
    * - config list 
      - ``!cb config list``
-     - Gives a link to the bots configuration.
+     - Displays the bots configuration.
    * - config deleteoffline
      - ``!cb config deleteoffline``
      - Deletes offline streams.
