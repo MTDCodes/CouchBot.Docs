@@ -24,5 +24,5 @@ An example being if someone played Destiny 2 they would never be announced in th
      - ``!cb filter title twitch "World of*"``
      - Creates a **Stream Title Filter** on Twitch for any titles starting with "World of"
    * - filter list
-     - ``!cb filter list``
-     - Displays a list of the current applicable filters.
+     - ``!cb filter list [page #]``
+     - Displays a list of the current applicable filters. Page # is optional, defaults to 1.
