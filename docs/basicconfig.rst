@@ -27,8 +27,8 @@ They can either be added by role or by individual user, see examples below on ho
      - ``!cb admin @Developers``
      - Adds a role to administrate the bot.
    * - admin list
-     - ``!cb admin list``
-     - Provides a list of the configured bot admins
+     - ``!cb admin list [page #]``
+     - Provides a list of the configured bot admins. Page # is optional, defaults to 1.
 
 ----------------
 Allowed Settings
