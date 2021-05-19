@@ -70,7 +70,7 @@ The command for this feature is as follows;
 Manually Add Creator(s)
 -----------------------
 
-Manually adding creators allows a fine grained level of control over who is announed in your server and allows things such as custom announcements and channels
+Manually adding creators allows a fine grained level of control over who is announced in your server and allows things such as custom announcements and channels
 to be selected giving much more options on who should be announced and where.
 This is particularly useful on a creators server where they may want to use **@here** to announce when they are live but not for anyone else.
 
