@@ -41,9 +41,9 @@ For a typed phrase to assign roles that can be done by the users themselves, see
      - ``!cb role remove "CouchMe"`` 
      - Removes the *command* "CouchMe"
 
-Reaction Roles are also available to use should you find that easier to implement on your server;
+Reaction Roles are also available to use should you find that easier to implement on your server. Instead of typing a command, your users can react to an emoji attached to a message to be assigned / removed from a given role;
 
-.. Note:: This can scale up to a maximum or **FOUR** reaction roles.
+.. Note:: A *single* reaction message can contain up to **four** reaction roles. Want more than 4? You will need to provide multiple messages.
 
 .. list-table:: Reaction Role Commands
    :widths: 25 25 50
