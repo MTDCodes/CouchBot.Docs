@@ -93,9 +93,6 @@ Use the following commands to configure and view various other bits and bobs.
    * - ytidlookup 
      - ``!cb ytidlookup "Channel Name"``
      - Tries to locate the channel ID for YouTube.
-   * - whatsthis
-     - ``!cb whatsthis``
-     - Give a link to an image to find out.
    * - config list 
      - ``!cb config list``
      - Displays the bots configuration.
