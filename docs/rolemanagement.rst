@@ -54,10 +54,10 @@ Reaction Roles are also available to use should you find that easier to implemen
      - Usage
    * - rm 
      - ``!cb rm @Streamer :thumbsup: Please react to get the Streamer role!``
-     - Adds/Removes a role when someone adds a reaction to the :thumbsup: emoji."
+     - Adds/Removes a role when someone adds a reaction to the :thumbsup: emoji.
    * - rm 
      - ``!cb rm @Streamer :thumbsup: @Announcements :loudspeaker: Please react to get the desired role!``
-     - Adds/Removes a role when someone adds a reaction to the :thumbsup: and/or :loudspeaker: emoji."
+     - Adds/Removes a role when someone adds a reaction to the :thumbsup: and/or :loudspeaker: emoji.
 
 The final role option available is tied to Twitch only and assigns the person who is live an additional role **only when they are live.**
 Please see :ref:`Twitch Info <twitch>` for further information on this role.
