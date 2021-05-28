@@ -36,7 +36,7 @@ Use the following commands to configure custom message options and test them.
 | message goodbye   | ``!cb message goodbye "Your Custom Goodbye Message"``   | Changes your goodbye message for the server.  |
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
 
-If you want to reset your greetings and messages (or not change them) to the default ones, use the following commands;
+If you want to reset your greetings and messages to the default verbiage, use the following commands;
 
 +--------------------+----------------------------------+--------------------------------------------------------+
 | Name               | Example                          | Usage                                                  |
