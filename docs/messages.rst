@@ -16,11 +16,31 @@ Use the following commands to configure custom message options and test them.
     %CHANNEL% - Channel Name
     %URL% - Full URL of the Stream
 
-.. note:: The following variables are available to use in the **Greetings** and **Goodbye** messages.
+.. note:: The following variables are available to use in the **Greetings** messages.
 .. code-block:: none
 
-    %USER%
-    %RANDOMUSER%
+    %NEWLINE% - Insert a new line.
+    %NICKNAME% - Nickname of the person joining. They do not have one though, this will return username on Greetings.
+    %RANDOMUSER% - Grab a random username from the server.
+    %SERVER% - Name of the server.
+    %SERVERID% - ID of the server.
+    %TIMESTAMPUTC% - Current Timestamp, in UTC.
+    %USER% - Username of the person joining.
+    %USERID% - User ID of the person joining.
+    
+.. note:: The following variables are available to use in the **Goodbye** messages.
+.. code-block:: none
+
+    %HOWLONG%
+    %JOINDATE%
+    %NEWLINE% - Insert a new line.
+    %NICKNAME% - Nickname of the person leaving. If they do not have one, will act like %USER%.
+    %RANDOMUSER% - Grab a random username from the server.
+    %SERVER% - Name of the server.
+    %SERVERID% - ID of the server.
+    %TIMESTAMPUTC% - Current Timestamp, in UTC.
+    %USER% - Username of the person leaving.
+    %USERID% - User ID of the person leaving.
 
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
 | Name              | Example                                                 | Usage                                         |
