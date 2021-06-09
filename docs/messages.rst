@@ -31,8 +31,8 @@ Use the following commands to configure custom message options and test them.
 .. note:: The following variables are available to use in the **Goodbye** messages.
 .. code-block:: none
 
-    %HOWLONG%
-    %JOINDATE%
+    %HOWLONG% - Human readable amount of time they spent on the server, ie: 3 months, 2 days, and 6 hours.
+    %JOINDATE% - The date the person leaving originally joined the server.
     %NEWLINE% - Insert a new line.
     %NICKNAME% - Nickname of the person leaving. If they do not have one, will act like %USER%.
     %RANDOMUSER% - Grab a random username from the server.
