@@ -13,6 +13,23 @@ topics and subjects and as we are able, we will add them to our supported platfo
 .. Important:: To remove a creator, run the command again!
 
 -------
+DLive
+-------
+
+DLive.tv is the largest live streaming community on the blockchain. Discover amazing games and channels, and earn rewards by watching streams on DLive now.
+
+.. list-table:: DLive Commands
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Name
+     - Example
+     - Usage
+   * - dlive
+     - ``!cb dlive MattTheDev #discord-channel``
+     - Adds a creator to your list to announce when Live.
+
+-------
 Picarto
 -------
 
@@ -27,23 +44,6 @@ Catering almost exclusively to artists, Picarto found a market that it could bui
      - Usage
    * - picarto
      - ``!cb picarto MattTheDev #discord-channel``
-     - Adds a creator to your list to announce when Live.
-
---------
-Mobcrush
---------
-
-Catering almost exclusively to mobile gaming, Mobcrush found a market that it could build from and has a loyal viewerbase and streamers that love being there.
-
-.. list-table:: Mobcrush Commands
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Name
-     - Example
-     - Usage
-   * - mobcrush
-     - ``!cb mobcrush MattTheDev #discord-channel``
      - Adds a creator to your list to announce when Live.
 
 ------
