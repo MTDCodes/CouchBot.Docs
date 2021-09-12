@@ -20,7 +20,7 @@ You can jump straight into the `Requirements <https://patreon.com/CouchBot>`__
 - Stream Announcing (across all major streaming platforms)
 - Role Hoisting
 - Greeting/Welcome Message (fully configurable)
-- Custom Live Messages (Glimesh, Mobcrush, Picarto, Piczel, Trovo, Theta, Twitch, & YouTube)
+- Custom Live Messages (DLive, Glimesh, Picarto, Piczel, Trovo, Theta, Twitch, & YouTube)
 - Beautiful Embeds
 - VOD Publishing
 - Seperate announcements for owners!
