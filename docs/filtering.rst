@@ -26,3 +26,5 @@ An example being if someone played Destiny 2 they would never be announced in th
    * - filter list
      - ``!cb filter list [page #]``
      - Displays a list of the current applicable filters. Page # is optional, defaults to 1.
+
+.. note:: Want to add wildcards to your filters? Go for it! Adding a game filter of `"*of*"` will announce World of Warcraft, World of Tanks, Anything of Anything! Wildcards can be used in Title filtering too.
