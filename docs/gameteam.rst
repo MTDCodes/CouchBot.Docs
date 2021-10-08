@@ -6,7 +6,7 @@ Games & Teams
 
 .. note:: These commands are toggled, if you want to remove something from the list, run the command again.
 
-**CouchBot** can alert you when members of a specific stream team have gone live. For developers, we even have the game announcmenet feature allowing 
+**CouchBot** can alert you when members of a specific stream team have gone live. For developers, we even have the game announcement feature allowing 
 anyone playing a particular game to be announced.
 
 If you have a game or want to announce a game, then use the following settings.
