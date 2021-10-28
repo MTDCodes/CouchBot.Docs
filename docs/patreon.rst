@@ -10,15 +10,15 @@ To do this follow the guide below;
 
 .. note:: These commands are applicable only to people who have an active **Patreon** subscription.
 
-+----------------------+----------------------------------------+----------------------------------------+
-| Name                 | Example                                | Usage                                  |
-+----------------------+----------------------------------------+----------------------------------------+
-| patreon              | ``!cb patreon``                        | Shows you allowance and servers added. |
-+----------------------+----------------------------------------+----------------------------------------+
-| patreon addserver    | ``!cb patreon addserver 123456789``    | Adds a server to your account.         |
-+----------------------+----------------------------------------+----------------------------------------+
-| patreon removeserver | ``!cb patreon removeserver 123456789`` | Removes a server from your account.    |
-+----------------------+----------------------------------------+----------------------------------------+
++--------------+--------------------------------+----------------------------------------+
+| Name         | Example                        | Usage                                  |
++--------------+--------------------------------+----------------------------------------+
+| me           | ``!cb me``                     | Shows you allowance and servers added. |
++--------------+--------------------------------+----------------------------------------+
+| addserver    | ``!cb addserver 123456789``    | Adds a server to your account.         |
++--------------+--------------------------------+----------------------------------------+
+| removeserver | ``!cb removeserver 123456789`` | Removes a server from your account.    |
++--------------+--------------------------------+----------------------------------------+
 
 The command(s) below is only applicable to specific Patreon tiers;
 
