@@ -84,15 +84,12 @@ Use the following commands to configure and view various other bits and bobs.
    * - Name
      - Example
      - Usage
-   * - info 
-     - ``!cb info``
+   * - /info 
+     - ``/info``
      - Brief stats overview of the bot.
-   * - invite
-     - ``!cb invite``
+   * - /invite
+     - ``/invite``
      - Sends you a message with the bot invite.
-   * - ytidlookup 
-     - ``!cb ytidlookup "Channel Name"``
-     - Tries to locate the channel ID for YouTube.
    * - config list 
      - ``!cb config list``
      - Displays the bots configuration.
@@ -102,12 +99,6 @@ Use the following commands to configure and view various other bits and bobs.
    * - config textannouncements
      - ``!cb config textannouncements``
      - Announces in text rather than embeds
-   * - clap 
-     - ``!cb clap place your text here``
-     - Places a clap in all the spaces.
-   * - cookie
-     - ``!cb cookie place your text here``
-     - Places a cookie in all the spaces.
    * - clone
      - ``!cb clone #ChannelClone All notifications go in here.``
      - You can use this command to clone a channel and pin the message you specify.

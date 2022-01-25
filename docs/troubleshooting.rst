@@ -28,7 +28,7 @@ If you are having issues you can use the following commands to help in identifyi
 +-------------+----------------------------------+---------------------------------------------+
 | Name        | Example                          | Usage                                       |
 +-------------+----------------------------------+---------------------------------------------+
-| ping        | ``!cb ping``                     | Should provide a "*pong*" response.         |
+| ping        | ``/ping``                        | Should provide a "*pong*" response.         |
 +-------------+----------------------------------+---------------------------------------------+
 | permissions | ``!cb permissions #ChannelName`` | Checks the bots permissions in the channel. |
 +-------------+----------------------------------+---------------------------------------------+
