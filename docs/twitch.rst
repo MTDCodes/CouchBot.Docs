@@ -31,8 +31,8 @@ The following table shows the only steps needed to configure this for immediate 
    * - channel live
      - ``!cb channel live #discord-channel``
      - This channel will be where Discovery announcements go.
-   * - allow livediscovery
-     - ``!cb allow livediscovery all``
+   * - /discovery
+     - ``/discovery enable``
      - Allows the automatic announcing of people with the status of “Streaming”.
 
 You can also limit the people that will be announced using assigned roles or you can switch this feature off completely;
@@ -44,11 +44,11 @@ You can also limit the people that will be announced using assigned roles or you
    * - Name
      - Example
      - Usage
-   * - allow livediscovery
-     - ``!cb allow livediscovery none``
+   * - /discovery
+     - ``/discovery disable``
      - Prevents the automatic announcing of people with the status of “Streaming”.
-   * - allow livediscovery
-     - ``!cb allow livediscovery role @Streamer`` 
+   * - /discovery
+     - ``/discovery enable role: @Streamer`` 
      - Allows the automatic announcing of people with the status of “Streaming” and the role of @Streamer.
 
 Finally, Live Discovery also allows you to assign a "**Live Now**" type role to creators allowing you to hoist them to show current

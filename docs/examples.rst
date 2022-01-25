@@ -21,7 +21,8 @@ We then tell the bot to ping the everyone role and allow it to do so.
 
 .. code-block:: none
 
-    !cb allow live
+    /allow 
+    Choose 'Live' from the drop down
     !cb twitch MattTheDev #notification "The Dev is going live @everyone"
 
 -----------
@@ -41,9 +42,10 @@ Then tell it to find anyone with the streaming status and your done!
 
 .. code-block:: none
 
-    !cb allow live
+    /allow 
+    Choose 'Live' from the drop down
     !cb channel live #notification
-    !cb allow livediscovery all
+    /discovery enable
 
 -----------
 Scenario 3
@@ -61,9 +63,10 @@ All that's left to do is tell it what role it should announce as live!
 
 .. code-block:: none
 
-    !cb allow live
+    /allow 
+    Choose 'Live' from the drop down
     !cb channel live #notification
-    !cb allow livediscovery role @VIP
+    /discovery enable role: @VIP
 
 -----------
 Scenario 4
@@ -78,7 +81,8 @@ To accomplish this we allow live then add the streamers as needed specifiying th
 
 .. code-block:: none
 
-    !cb allow live
+    /allow
+    Choose 'Live' from the drop down
     !cb twitch MattTheDev #ownerchannel
     !cb twitch Jaymei #otherchannel
 
@@ -99,10 +103,12 @@ It is also possible to leave blank for them to go the the same channel or use th
 
 .. code-block:: none
 
-    !cb allow live
-    !cb allow published
+    /allow
+    Choose 'Live' and 'Published' from the drop down
     !cb youtube UC123456 #livechannel live
+    Choose the correct channel from the drop down.
     !cb youtube UC123456 #publishedchannel vod
+    Choose the correct channel from the drop down.
 
 -----------
 Scenario 6
@@ -136,8 +142,8 @@ live or maybe just to greet a new user. The following commands will show you how
 
 .. code-block:: none
 
-    !cb allow greetings
-    !cb allow goodbyes
+    /allow
+    Choose 'Greetings' and 'Goodbyes' from the drop down
     !cb channel greetings #channel-name
     !cb channel goodbyes #channel-name
     !cb message greeting "Your Custom Greeting Message"

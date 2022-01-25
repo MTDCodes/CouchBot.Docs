@@ -44,7 +44,7 @@ Live & Published
 
 .. Caution:: If you fail to set either of these the bot will announce no-one.
 
-Use the following commands to configure whether the bot should announce live and/or published content.
+Use the following slash command to configure whether the bot should announce live and/or published content.
 If you choose not to enable either of these then the bot will in effect, not announce anything.
 
 .. note:: The following variables are available to use in the **Live** and **Published** messages.
@@ -62,9 +62,8 @@ If you choose not to enable either of these then the bot will in effect, not ann
    * - Name
      - Example
      - Usage
-   * - allow live
-     - ``!cb allow live``
-     - Toggles allowing stream announces for live streamers.
+   * - /allow
+     - Choosing 'Live' Toggles allowing stream announces for live streamers.
    * - message live
      - ``!cb message live "Your Custom Live Message"``
      - Changes your live message for the server.
@@ -76,9 +75,8 @@ If you choose not to enable either of these then the bot will in effect, not ann
    * - Name
      - Example
      - Usage
-   * - allow published
-     - ``!cb allow published``
-     - Toggles allowing published videos to be announced.
+   * - /allow
+     - Choosing 'Published' Toggles allowing published videos to be announced.
    * - message published
      - ``!cb message published "Your Custom VOD Message"``
      - Changes your VOD message for the server.
@@ -102,9 +100,8 @@ These commands allow you to enable the greeting/goodbye function of CouchBot, th
    * - Name
      - Example
      - Usage
-   * - allow greetings
-     - ``!cb allow greetings``
-     - Toggle allowing greetings when a member joins the server.
+   * - /allow
+     - Choosing 'Greetings' Toggles allowing greetings when a member joins the server.
    * - channel greetings
      - ``!cb channel greetings #discord-channel``
      - Sets the greeting channel.
@@ -119,9 +116,8 @@ These commands allow you to enable the greeting/goodbye function of CouchBot, th
    * - Name
      - Example
      - Usage
-   * - allow goodbyes
-     - ``!cb allow goodbyes``
-     - Toggle allowing goodbyes when a member leaves the server.
+   * - /allow
+     - Choosing 'Goodbyes' Toggles allowing goodbyes when a member leaves the server.
    * - channel goodbyes
      - ``!cb channel goodbyes #discord-channel``
      - Sets the goodbye channel.
@@ -144,6 +140,5 @@ The following settings change the apperance of the embed message;
    * - Name
      - Example
      - Usage
-   * - allow thumbnails
-     - ``!cb allow thumbnails``
-     - Adds an image to the bottom of the embed from the stream.
+   * - /allow
+     - Choosing 'Thumbnails' Adds an image to the bottom of the embed from the stream.
