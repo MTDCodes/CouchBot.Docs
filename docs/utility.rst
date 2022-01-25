@@ -84,11 +84,11 @@ Use the following commands to configure and view various other bits and bobs.
    * - Name
      - Example
      - Usage
-   * - info 
-     - ``!cb info``
+   * - /info 
+     - ``/info``
      - Brief stats overview of the bot.
-   * - invite
-     - ``!cb invite``
+   * - /invite
+     - ``/invite``
      - Sends you a message with the bot invite.
    * - config list 
      - ``!cb config list``
