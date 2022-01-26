@@ -28,8 +28,8 @@ The following table shows the only steps needed to configure this for immediate 
    * - Name
      - Example
      - Usage
-   * - channel live
-     - ``!cb channel live #discord-channel``
+   * - /channel live
+     - ``/channel live #discord-channel``
      - This channel will be where Discovery announcements go.
    * - /discovery
      - ``/discovery enable``

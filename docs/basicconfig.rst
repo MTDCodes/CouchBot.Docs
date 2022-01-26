@@ -103,7 +103,7 @@ These commands allow you to enable the greeting/goodbye function of CouchBot, th
    * - /allow
      - Choosing 'Greetings' Toggles allowing greetings when a member joins the server.
    * - channel greetings
-     - ``!cb channel greetings #discord-channel``
+     - ``/channel greetings #discord-channel``
      - Sets the greeting channel.
    * - message greeting
      - ``!cb message greeting "Your Custom Greeting Message"``
@@ -119,7 +119,7 @@ These commands allow you to enable the greeting/goodbye function of CouchBot, th
    * - /allow
      - Choosing 'Goodbyes' Toggles allowing goodbyes when a member leaves the server.
    * - channel goodbyes
-     - ``!cb channel goodbyes #discord-channel``
+     - ``/channel goodbyes #discord-channel``
      - Sets the goodbye channel.
    * - message goodbye
      - ``!cb message goodbye "Your Custom Goodbye Message"``
