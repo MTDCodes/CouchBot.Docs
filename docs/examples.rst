@@ -44,7 +44,7 @@ Then tell it to find anyone with the streaming status and your done!
 
     /allow 
     Choose 'Live' from the drop down
-    !cb channel live #notification
+    /channel live #notification
     /discovery enable
 
 -----------
@@ -65,7 +65,7 @@ All that's left to do is tell it what role it should announce as live!
 
     /allow 
     Choose 'Live' from the drop down
-    !cb channel live #notification
+    /channel live #notification
     /discovery enable role: @VIP
 
 -----------
@@ -144,8 +144,8 @@ live or maybe just to greet a new user. The following commands will show you how
 
     /allow
     Choose 'Greetings' and 'Goodbyes' from the drop down
-    !cb channel greetings #channel-name
-    !cb channel goodbyes #channel-name
+    /channel greetings #channel-name
+    /channel goodbyes #channel-name
     !cb message greeting "Your Custom Greeting Message"
     !cb message goodbye "Your Custom Goodbye Message"
 
