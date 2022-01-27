@@ -88,17 +88,14 @@ Use the following commands to configure and view various other bits and bobs.
      - ``/info``
      - Brief stats overview of the bot.
    * - /invite
+     - ``/help``
+     - Display an output of common places to find help with the bot.
+   * - /invite
      - ``/invite``
      - Sends you a message with the bot invite.
    * - config list 
-     - ``!cb config list``
+     - ``/config``
      - Displays the bots configuration.
-   * - config deleteoffline
-     - ``!cb config deleteoffline``
-     - Deletes offline streams.
-   * - config textannouncements
-     - ``!cb config textannouncements``
-     - Announces in text rather than embeds
    * - clone
      - ``!cb clone #ChannelClone All notifications go in here.``
      - You can use this command to clone a channel and pin the message you specify.
