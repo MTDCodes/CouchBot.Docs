@@ -142,3 +142,23 @@ The following settings change the apperance of the embed message;
      - Usage
    * - /allow
      - Choosing 'Thumbnails' Adds an image to the bottom of the embed from the stream.
+
+.. list-table:: Delete Offline Streams
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Name
+     - Example
+     - Usage
+   * - /allow
+     - Choosing 'Delete Offline Streams' Will delete, instead of update, your offline stream announcements.
+
+.. list-table:: Plain Text Announcements
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Name
+     - Example
+     - Usage
+   * - /allow
+     - Choosing 'Plain Text Announcements' Will change announcements to text announcements, not an embed.
