@@ -12,9 +12,6 @@ YouTube has the unique ability to indefinently store your Live Streams to VOD as
 
 .. Important:: To remove a creator, run the command again!
 
-.. Caution:: To get your YouTube Channel ID see `this guide <https://youtube.com/account_advanced>`_.
-             It's 24 characters long and starts with UC.
-             Alternatvely, use the ``!cb ytidlookup`` command.
 
 --------------
 Live Streaming
@@ -31,11 +28,11 @@ creator to CouchBot.
      - Example
      - Usage
    * - youtube
-     - ``!cb youtube UC1VkELEdx28lgBg_MBkfcwQ #discord-channel live``
-     - Adds a creator to your list to announce when Live.
+     - ``!cb youtube "YouTube Creator Name or ID" #discord-channel live``
+     - A dropdown will appear. Choose the channel to add or remove. Adds / Removes a creator to your list to announce when Live.
    * - youtube
-     - ``!cb youtube UC1VkELEdx28lgBg_MBkfcwQ #discord-channel both``
-     - Adds a creator to your list to announce when Live and/or Published.
+     - ``!cb youtube "YouTube Creator Name or ID" #discord-channel both``
+     - A dropdown will appear. Choose the channel to add or remove. Adds / Removes a creator to your list to announce when Live and/or Published.
 
 ----------------
 Published Videos
@@ -52,8 +49,8 @@ To announce when a creator has uploaded a video you would use the following comm
      - Example
      - Usage
    * - youtube
-     - ``!cb youtube UC1VkELEdx28lgBg_MBkfcwQ #discord-channel vod``
-     - Adds a creator to your list to announce when a video is published.
+     - ``!cb youtube "YouTube Creator Name or ID" #discord-channel vod``
+     - A dropdown will appear. Choose the channel to add or remove. Adds / Removes a creator to your list to announce when a video is published.
    * - youtube
-     - ``!cb youtube UC1VkELEdx28lgBg_MBkfcwQ #discord-channel both``
-     - Adds a creator to your list to announce when Live and/or Published.
+     - ``!cb youtube "YouTube Creator Name or ID" #discord-channel both``
+     -A dropdown will appear. Choose the channel to add or remove.  Adds / Removes a creator to your list to announce when Live and/or Published.
