@@ -51,26 +51,6 @@ This provides basic moderation actions that can be used via the bot;
      - ``!cb echo Matt is Great!``
      - Gets the CouchBot to repeat the text you specify.
 
---------------------
-Random Announcements
---------------------
-
-Ever wanted to put a random stream in a channel? Of course you did and now you can!
-
-.. list-table::
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Name
-     - Example
-     - Usage
-   * - announce random 
-     - ``!cb announce random twitch``
-     - Will announce a random stream in the channel you type it in (**Admin Only**)
-   * - dm random
-     - ``!cb dm random twitch``
-     - Will DM a random stream to the user that ran the command.
-
 -------------
 Misc Commands
 -------------
@@ -120,30 +100,12 @@ moderation of you server. To accomplish this you can use the following commands.
    * - Name
      - Example
      - Usage
-   * - purge 
-     - ``!cb purge``
+   * - /purge 
+     - ``/purge``
      - Deletes 100 messages in the current channel.
-   * - purge
-     - ``!cb purge 25``
+   * - /purge count
+     - ``/purge count 25``
      - This would purge 25 messages in the current channel.
-   * - purge 
-     - ``!cb purge 25 #DiscordChannel``
-     - This would purge 25 messages in the channel #DiscordChannel.
-   * - purge
-     - ``!cb purge 25 #DiscordChannel true``
-     - This would purge 25 messages in the channel #DiscordChannel including pinned messages.
-   * - purge
-     - ``!cb purge @MattTheDev``
-     - Deletes all messages from user within the last 100 messages in the current channel.
-   * - purge
-     - ``!cb purge @MattTheDev true``
-     - Deletes all messages from user within the last 100 messages in the current channel, including pinned messages.
-   * - purge
-     - ``!cb purge @MattTheDev #DiscordChannel``
-     - Deletes all messages from user within the last 100 messages in the current channel.
-   * - purge
-     - ``!cb purge @MattTheDev #DiscordChannel true``
-     - Deletes all messages from user within the last 100 messages in the current channel, including pinned messages.
 
 .. Warning:: The following commands have no confirmation and will execute when run.
 

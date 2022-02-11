@@ -45,15 +45,15 @@ Use the following commands to configure custom message options and test them.
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
 | Name              | Example                                                 | Usage                                         |
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
-| message live      | ``!cb message live "Your Custom Live Message"``         | Changes your live message for the server.     |
+| message live      | ``/message live "Your Custom Live Message"``         | Changes your live message for the server.     |
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
-| message published | ``!cb message published "Your Custom VOD Message"``     | Changes your VOD message for the server.      |
+| message published | ``/message published "Your Custom VOD Message"``     | Changes your VOD message for the server.      |
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
-| message offline   | ``!cb message offline "Your Custom Offline Message"``   | Changes your offline message for the server.  |
+| message offline   | ``/message offline "Your Custom Offline Message"``   | Changes your offline message for the server.  |
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
-| message greeting  | ``!cb message greeting "Your Custom Greeting Message"`` | Changes your greeting message for the server. |
+| message greeting  | ``/message greeting "Your Custom Greeting Message"`` | Changes your greeting message for the server. |
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
-| message goodbye   | ``!cb message goodbye "Your Custom Goodbye Message"``   | Changes your goodbye message for the server.  |
+| message goodbye   | ``/message goodbye "Your Custom Goodbye Message"``   | Changes your goodbye message for the server.  |
 +-------------------+---------------------------------------------------------+-----------------------------------------------+
 
 If you want to reset your greetings and messages to the default verbiage, use the following commands;
@@ -61,17 +61,17 @@ If you want to reset your greetings and messages to the default verbiage, use th
 +--------------------+----------------------------------+--------------------------------------------------------+
 | Name               | Example                          | Usage                                                  |
 +--------------------+----------------------------------+--------------------------------------------------------+
-| message live       | ``!cb message live clear``       | Resets your live message for the server.               |
+| message live       | ``/message live clear``       | Resets your live message for the server.               |
 +--------------------+----------------------------------+--------------------------------------------------------+
-| message published  | ``!cb message published clear``  | Resets your VOD message for the server.                |
+| message published  | ``/message published clear``  | Resets your VOD message for the server.                |
 +--------------------+----------------------------------+--------------------------------------------------------+
-| message offline    | ``!cb message offline clear``    | Resets your offline message for the server.            |
+| message offline    | ``/message offline clear``    | Resets your offline message for the server.            |
 +--------------------+----------------------------------+--------------------------------------------------------+
-| message greeting   | ``!cb message greeting clear``   | Resets your greeting message for the server.           |
+| message greeting   | ``/message greeting clear``   | Resets your greeting message for the server.           |
 +--------------------+----------------------------------+--------------------------------------------------------+
-| message goodbye    | ``!cb message goodbye clear``    | Resets your goodbye message for the server.            |
+| message goodbye    | ``/message goodbye clear``    | Resets your goodbye message for the server.            |
 +--------------------+----------------------------------+--------------------------------------------------------+
-| message offline    | ``!cb message offline ""``       | Leaves the original announcement post without changes. |
+| message offline    | ``/message offline ""``       | Leaves the original announcement post without changes. |
 +--------------------+----------------------------------+--------------------------------------------------------+
 
 To have the message outside of the embed blank, use the following;
@@ -79,9 +79,9 @@ To have the message outside of the embed blank, use the following;
 +-------------------+---------------------------------+--------------------------------------------------------------+
 | Name              | Example                         | Usage                                                        |
 +-------------------+---------------------------------+--------------------------------------------------------------+
-| message live      | ``!cb message live empty``      | Remove message outside of embed on live stream announcement. |
+| message live      | ``/message live empty``      | Remove message outside of embed on live stream announcement. |
 +-------------------+---------------------------------+--------------------------------------------------------------+
-| message published | ``!cb message published empty`` | Remove message outside of embed on published announcement.   |
+| message published | ``/message published empty`` | Remove message outside of embed on published announcement.   |
 +-------------------+---------------------------------+--------------------------------------------------------------+
 
 If you want to test your messages, use the following commands;

@@ -64,8 +64,8 @@ If you choose not to enable either of these then the bot will in effect, not ann
      - Usage
    * - /allow
      - Choosing 'Live' Toggles allowing stream announces for live streamers.
-   * - message live
-     - ``!cb message live "Your Custom Live Message"``
+   * - /message live
+     - ``/message live Your Custom Live Message``
      - Changes your live message for the server.
 
 .. list-table:: Published
@@ -77,8 +77,8 @@ If you choose not to enable either of these then the bot will in effect, not ann
      - Usage
    * - /allow
      - Choosing 'Published' Toggles allowing published videos to be announced.
-   * - message published
-     - ``!cb message published "Your Custom VOD Message"``
+   * - /message published
+     - ``/message  published Your Custom VOD Message``
      - Changes your VOD message for the server.
 
 ~~~~~~~~~~~~~~~~~~~~
@@ -102,11 +102,11 @@ These commands allow you to enable the greeting/goodbye function of CouchBot, th
      - Usage
    * - /allow
      - Choosing 'Greetings' Toggles allowing greetings when a member joins the server.
-   * - channel greetings
+   * - /channel greetings
      - ``/channel greetings #discord-channel``
      - Sets the greeting channel.
-   * - message greeting
-     - ``!cb message greeting "Your Custom Greeting Message"``
+   * - /message greeting
+     - ``/message greeting Your Custom Greeting Message``
      - Changes your greeting message for the server.
 
 .. list-table:: Goodbyes
@@ -118,11 +118,11 @@ These commands allow you to enable the greeting/goodbye function of CouchBot, th
      - Usage
    * - /allow
      - Choosing 'Goodbyes' Toggles allowing goodbyes when a member leaves the server.
-   * - channel goodbyes
+   * - /channel goodbyes
      - ``/channel goodbyes #discord-channel``
      - Sets the goodbye channel.
-   * - message goodbye
-     - ``!cb message goodbye "Your Custom Goodbye Message"``
+   * - /message goodbye
+     - ``/message goodbye Your Custom Goodbye Message``
      - Changes your goodbye message for the server.
 
 ----------------------
