@@ -146,8 +146,8 @@ live or maybe just to greet a new user. The following commands will show you how
     Choose 'Greetings' and 'Goodbyes' from the drop down
     /channel greetings #channel-name
     /channel goodbyes #channel-name
-    !cb message greeting "Your Custom Greeting Message"
-    !cb message goodbye "Your Custom Goodbye Message"
+    /message greeting Your Custom Greeting Message
+    /message goodbye Your Custom Goodbye Message
 
 .. admonition:: Scenario 2
 
@@ -160,5 +160,5 @@ You can use the following;
 
 .. code-block:: none
 
-    !cb message live "Your Custom Live Message"	
-    !cb message published "Your Custom VOD Message"
+    /message live Your Custom Live Message
+    /message published Your Custom VOD Message
