@@ -105,9 +105,9 @@ It is also possible to leave blank for them to go the the same channel or use th
 
     /allow
     Choose 'Live' and 'Published' from the drop down
-    !cb youtube UC123456 #livechannel live
+    !cb youtube "Channel Name" #livechannel live
     Choose the correct channel from the drop down.
-    !cb youtube UC123456 #publishedchannel vod
+    !cb youtube "Channel Name" #publishedchannel vod
     Choose the correct channel from the drop down.
 
 -----------
