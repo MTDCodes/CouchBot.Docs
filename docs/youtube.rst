@@ -75,7 +75,7 @@ To announce when a creator has uploaded a video you would use the following comm
      - A dropdown will appear. Choose the channel to add or remove. Adds / Removes a creator to your list to announce when a video is published.
    * - youtube
      - ``!cb youtube "YouTube Creator Name or ID" #discord-channel both``
-     -A dropdown will appear. Choose the channel to add or remove.  Adds / Removes a creator to your list to announce when Live and/or Published.
+     - A dropdown will appear. Choose the channel to add or remove.  Adds / Removes a creator to your list to announce when Live and/or Published.
    * - youtube
      - ``!cb youtube YouTube Channel ID #discord-channel vod``
      - This will bypass the dropdown, and directly add the YouTube Channel, if a valid ID is passed.
