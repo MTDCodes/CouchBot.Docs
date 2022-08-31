@@ -26,7 +26,7 @@ DLive.tv is the largest live streaming community on the blockchain. Discover ama
      - Example
      - Usage
    * - dlive
-     - ``!cb dlive MattTheDev #discord-channel``
+     - ``/dlive creator: MattTheDev channel: #discord-channel``
      - Adds a creator to your list to announce when Live.
 
 -------
@@ -43,7 +43,7 @@ Catering almost exclusively to artists, Picarto found a market that it could bui
      - Example
      - Usage
    * - picarto
-     - ``!cb picarto MattTheDev #discord-channel``
+     - ``/picarto creator: MattTheDev channel: #discord-channel``
      - Adds a creator to your list to announce when Live.
 
 ------
@@ -60,7 +60,7 @@ An art streaming website with free multistreams, free recordings and timelapses,
      - Example
      - Usage
    * - piczel
-     - ``!cb piczel MattTheDev #discord-channel``
+     - ``/dlive creator: MattTheDev channel: #discord-channel``
      - Adds a creator to your list to announce when Live.
 
 -----
@@ -77,7 +77,7 @@ Trovo is an interactive live streaming platform, live since March 2020.
      - Example
      - Usage
    * - trovo
-     - ``!cb trovo MattTheDev #discord-channel``
+     - ``/trovo creator: MattTheDev channel: #discord-channel``
      - Adds a creator to your list to announce when Live.
 
 -------
@@ -94,23 +94,5 @@ Glimesh is a next generation streaming platform built by the community, for the 
      - Example
      - Usage
    * - glimesh
-     - ``!cb glimesh MattTheDev #discord-channel``
-     - Adds a creator to your list to announce when Live.
-
---------
-Theta.tv
---------
-
-Theta.tv is the next generation Esports entertainment platform on blockchain which features 24/7 live streaming
-content from top games like Fortnite, League of Legends, CSGO, and more.
-
-.. list-table:: Theta.tv Commands
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Name
-     - Example
-     - Usage
-   * - theta
-     - ``!cb theta MattTheDev #discord-channel``
+     - ``/glimesh creator: MattTheDev channel: #discord-channel``
      - Adds a creator to your list to announce when Live.

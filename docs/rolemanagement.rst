@@ -19,29 +19,29 @@ If you want Discord users to be assigned a role when they join your Discord serv
      - Example
      - Usage
    * - role join 
-     - ``!cb role join @RoleName``
+     - ``/role join role: @RoleName``
      - Assigns a role when people join your server.
    * - role join reset 
-     - ``!cb role join reset``
+     - ``/role joinnone``
      - Reset the server join role to nothing.
 
 Reaction Roles are also available to use should you find that easier to implement on your server. Instead of typing a command, your users can react to an emoji attached to a message to be assigned / removed from a given role;
 
-.. Note:: A *single* reaction message can contain up to **four** reaction roles. Want more than 4? You will need to provide multiple messages.
+.. .. Note:: A *single* reaction message can contain up to **four** reaction roles. Want more than 4? You will need to provide multiple messages.
 
-.. list-table:: Reaction Role Commands
-   :widths: 25 25 50
-   :header-rows: 1
+.. .. list-table:: Reaction Role Commands
+..    :widths: 25 25 50
+..    :header-rows: 1
 
-   * - Name
-     - Example
-     - Usage
-   * - rm 
-     - ``!cb rm @Streamer :thumbsup: Please react to get the Streamer role!``
-     - Adds/Removes a role when someone adds a reaction to the :thumbsup: emoji.
-   * - rm 
-     - ``!cb rm @Streamer :thumbsup: @Announcements :loudspeaker: Please react to get the desired role!``
-     - Adds/Removes a role when someone adds a reaction to the :thumbsup: and/or :loudspeaker: emoji.
+..    * - Name
+..      - Example
+..      - Usage
+..    * - rm 
+..      - ``!cb rm @Streamer :thumbsup: Please react to get the Streamer role!``
+..      - Adds/Removes a role when someone adds a reaction to the :thumbsup: emoji.
+..    * - rm 
+..      - ``!cb rm @Streamer :thumbsup: @Announcements :loudspeaker: Please react to get the desired role!``
+..      - Adds/Removes a role when someone adds a reaction to the :thumbsup: and/or :loudspeaker: emoji.
 
-The final role option available is tied to Twitch only and assigns the person who is live an additional role **only when they are live.**
-Please see :ref:`Twitch Info <twitch>` for further information on this role.
+.. The final role option available is tied to Twitch only and assigns the person who is live an additional role **only when they are live.**
+.. Please see :ref:`Twitch Info <twitch>` for further information on this role.

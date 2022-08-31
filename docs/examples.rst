@@ -23,7 +23,7 @@ We then tell the bot to ping the everyone role and allow it to do so.
 
     /allow 
     Choose 'Live' from the drop down
-    !cb twitch MattTheDev #notification "The Dev is going live @everyone"
+    /twitch creator: MattTheDev channel: #notification message: The Dev is going live @everyone
 
 -----------
 Scenario 2
@@ -83,8 +83,8 @@ To accomplish this we allow live then add the streamers as needed specifiying th
 
     /allow
     Choose 'Live' from the drop down
-    !cb twitch MattTheDev #ownerchannel
-    !cb twitch Jaymei #otherchannel
+    /twitch creator: MattTheDev channel: #ownerchannel
+    /twitch creator: Jaymei channel: #otherchannel
 
 -----------
 Scenario 5
@@ -105,9 +105,9 @@ It is also possible to leave blank for them to go the the same channel or use th
 
     /allow
     Choose 'Live' and 'Published' from the drop down
-    !cb youtube "Channel Name" #livechannel live
+    /youtube creator: Channel Name channel: #livechannel type: live
     Choose the correct channel from the drop down.
-    !cb youtube "Channel Name" #publishedchannel vod
+    /youtube creator: Channel Name channel: #publishedchannel type: vod
     Choose the correct channel from the drop down.
 
 -----------
@@ -123,9 +123,9 @@ The third command would use the default live announcement message.
 
 .. code-block:: none
 
-    !cb twitch MattTheDev #BigNotification "@everyone CouchBot creator **MattTheDev** is now online!"
-    !cb twitch Jaymei #notification "@Streamer Another custom message!"
-    !cb twitch EmElle #notification
+    /twitch creator: MattTheDev channel: #BigNotification message: @everyone CouchBot creator **MattTheDev** is now online!
+    /twitch creator: Jaymei channel: #notification message: @Streamer Another custom message!
+    /twitch creator: EmElle channel: #notification
 
 --------
 Messages

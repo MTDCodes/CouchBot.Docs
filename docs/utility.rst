@@ -29,12 +29,6 @@ Use the following commands to configure and view various other bits and bobs.
    * - config list 
      - ``/config``
      - Displays the bots configuration.
-   * - clone
-     - ``!cb clone #ChannelClone All notifications go in here.``
-     - You can use this command to clone a channel and pin the message you specify.
-   * - prefix
-     - ``!cb prefix -``
-     - Using the command like this will change your prefix to ``-``
 
 -----------------------
 Purge (Delete) Messages
@@ -57,7 +51,7 @@ moderation of you server. To accomplish this you can use the following commands.
      - ``/purge``
      - Deletes 100 messages in the current channel.
    * - /purge count
-     - ``/purge count 25``
+     - ``/purge count: 25``
      - This would purge 25 messages in the current channel.
 
 .. Warning:: The following commands have no confirmation and will execute when run.
@@ -70,8 +64,8 @@ moderation of you server. To accomplish this you can use the following commands.
      - Example
      - Usage
    * - creators purge 
-     - ``!cb creators purge``
+     - ``/purgecreators``
      - Removes all manually added creators from announcing.
    * - creators purge 
-     - ``!cb creators purge twitch``
+     - ``/purgecreators platform: twitch``
      - Removes all manually added creators on Twitch from announcing, works for all platforms.

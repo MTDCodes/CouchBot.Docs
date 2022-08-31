@@ -62,9 +62,12 @@ The command for this feature is as follows;
    * - Name
      - Example
      - Usage
-   * - role live
-     - ``!cb role live @RoleTheyGet``
-     - The role that gets **assigned** to a person when they go live.
+   * - role live 
+     - ``/role live role: @RoleName``
+     - Assigns a role when people go live.
+   * - role live reset 
+     - ``/role livenone``
+     - Reset the server join role to nothing.
 
 -----------------------
 Manually Add Creator(s)
@@ -86,5 +89,5 @@ For more information on custom messages please see :ref:`Custom Announcements <c
      - Example
      - Usage
    * - twitch
-     - ``!cb twitch MattTheDev #discord-channel``
+     - ``/twitch creator: MattTheDev channel: #discord-channel``
      - Adds a creator be announced

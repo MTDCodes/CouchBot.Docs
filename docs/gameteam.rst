@@ -19,7 +19,7 @@ If you have a game or want to announce a game, then use the following settings.
      - Example
      - Usage
    * - game
-     - ``!cb game "Last Epoch" #discord-channel``
+     - ``/game name: Last Epoch channel: #discord-channel``
      - Toggles adding a game to the server games list.
    * - game list
      - ``/games page: [page #]``
@@ -36,7 +36,7 @@ An example is the **sutv** channel on Twitch.
      - Example
      - Usage
    * - team
-     - ``!cb team sutv #discord-channel``
+     - ``/team name: sutv channel: #discord-channel``
      - Toggles adding a team to the server teams list.
    * - team list
      - ``/teams page: [page #]``
