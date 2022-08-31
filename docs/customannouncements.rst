@@ -16,7 +16,7 @@ whatever role/person you choose.
 
 When adding a creator you would specify the custom message at the same time;
 
-**e.g.** ``!cb twitch MattTheDev #discord-channel "The Developer of **CouchBot** has gone live!"``
+**e.g.** ``/twitch creator: MattTheDev channel: #discord-channel message: The Developer of **CouchBot** has gone live!``
 
 Editing the message is as simple as running the command again with the new message to be announced.
 

@@ -21,13 +21,13 @@ They can either be added by role or by individual user, see examples below on ho
      - Example
      - Usage
    * - admin
-     - ``!cb admin @MattTheDev#0001``
+     - ``/admin name: MattTheDev``
      - Adds an individual to admin.
    * - admin
-     - ``!cb admin @Developers``
+     - ``/admin role: Developers``
      - Adds a role to administrate the bot.
    * - admin list
-     - ``!cb admin list [page #]``
+     - ``/admins [page #]``
      - Provides a list of the configured bot admins. Page # is optional, defaults to 1.
 
 ----------------

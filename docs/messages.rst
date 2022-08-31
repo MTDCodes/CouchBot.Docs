@@ -79,9 +79,9 @@ To have the message outside of the embed blank, use the following;
 +-------------------+---------------------------------+--------------------------------------------------------------+
 | Name              | Example                         | Usage                                                        |
 +-------------------+---------------------------------+--------------------------------------------------------------+
-| message live      | ``/message live empty``      | Remove message outside of embed on live stream announcement. |
+| message live      | ``/message live empty``         | Remove message outside of embed on live stream announcement. |
 +-------------------+---------------------------------+--------------------------------------------------------------+
-| message published | ``/message published empty`` | Remove message outside of embed on published announcement.   |
+| message published | ``/message published empty``    | Remove message outside of embed on published announcement.   |
 +-------------------+---------------------------------+--------------------------------------------------------------+
 
 If you want to test your messages, use the following commands;
@@ -89,11 +89,11 @@ If you want to test your messages, use the following commands;
 +-------------------+----------------------------------------+----------------------------------------------+
 | Name              | Example                                | Usage                                        |
 +-------------------+----------------------------------------+----------------------------------------------+
-| test live         | ``!cb test live #DiscordChannel``      | Tests your live message for the server.      |
+| test live         | ``/test live``                         | Tests your live message for the server.      |
 +-------------------+----------------------------------------+----------------------------------------------+
-| test published    | ``!cb test published #DiscordChannel`` | Tests your VOD message for the server.       |
+| test published    | ``/test published``                    | Tests your VOD message for the server.       |
 +-------------------+----------------------------------------+----------------------------------------------+
-| test greeting     | ``!cb test greeting``                  | Tests your greeting message for the server.  |
+| test greeting     | ``/test greeting``                     | Tests your greeting message for the server.  |
 +-------------------+----------------------------------------+----------------------------------------------+
-| test goodbye      | ``!cb test goodbye``                   | Tests your goodbye message for the server.   |
+| test goodbye      | ``/test goodbye``                      | Tests your goodbye message for the server.   |
 +-------------------+----------------------------------------+----------------------------------------------+

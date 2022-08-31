@@ -86,5 +86,5 @@ For more information on custom messages please see :ref:`Custom Announcements <c
      - Example
      - Usage
    * - twitch
-     - ``!cb twitch MattTheDev #discord-channel``
+     - ``/twitch creator: MattTheDev channel: #discord-channel``
      - Adds a creator be announced

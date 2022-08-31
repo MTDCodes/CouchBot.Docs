@@ -18,13 +18,13 @@ An example being if someone played Destiny 2 they would never be announced in th
      - Example
      - Usage
    * - filter game
-     - ``!cb filter game twitch "World of*"``
+     - ``/filter type: game platform: twitch filter_text: World of*``
      - Creates a **Game Filter** on Twitch for any games starting with "World of"
    * - filter title
-     - ``!cb filter title twitch "World of*"``
+     - ``/filter type: title platform: twitch filter_text: World of*``
      - Creates a **Stream Title Filter** on Twitch for any titles starting with "World of"
    * - filter list
-     - ``!cb filter list [page #]``
+     - ``/filters page: #``
      - Displays a list of the current applicable filters. Page # is optional, defaults to 1.
 
 .. note:: Want to add wildcards to your filters? Go for it! Adding a game filter of `"*of*"` will announce World of Warcraft, World of Tanks, Anything of Anything! Wildcards can be used in Title filtering too.
