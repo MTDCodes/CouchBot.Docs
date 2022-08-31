@@ -44,16 +44,16 @@ To announce when a creator has started a stream you would use the following comm
      - Example
      - Usage
    * - youtube
-     - ``!cb youtube "YouTube Creator Name" #discord-channel live``
+     - ``/youtube creator: YouTube Channel Name channel: #discord-channel type: live``
      - A dropdown will appear. Choose the channel to add or remove. Adds / Removes a creator to your list to announce when Live.
    * - youtube
-     - ``!cb youtube "YouTube Creator Name" #discord-channel both``
+     - ``/youtube creator: YouTube Channel Name channel: #discord-channel type: both``
      - A dropdown will appear. Choose the channel to add or remove. Adds / Removes a creator to your list to announce when Live and/or Published.
    * - youtube
-     - ``!cb youtube YouTube Channel ID #discord-channel live``
+     - ``/youtube creator: YouTube Channel ID channel: #discord-channel type: live``
      - This will bypass the dropdown, and directly add the YouTube Channel, if a valid ID is passed.
    * - youtube
-     - ``!cb youtube YouTube Channel ID #discord-channel both``
+     - ``/youtube creator: YouTube Channel ID channel: #discord-channel type: both``
      - This will bypass the dropdown, and directly add the YouTube Channel, if a valid ID is passed.
 
 ----------------
@@ -71,14 +71,14 @@ To announce when a creator has uploaded a video you would use the following comm
      - Example
      - Usage
    * - youtube
-     - ``!cb youtube "YouTube Creator Name or ID" #discord-channel vod``
+     - ``/youtube creator: YouTube Creator Name or ID channel: #discord-channel type: vod``
      - A dropdown will appear. Choose the channel to add or remove. Adds / Removes a creator to your list to announce when a video is published.
    * - youtube
-     - ``!cb youtube "YouTube Creator Name or ID" #discord-channel both``
+     - ``/youtube creator: YouTube Creator Name or ID channel: #discord-channel type: both``
      - A dropdown will appear. Choose the channel to add or remove.  Adds / Removes a creator to your list to announce when Live and/or Published.
    * - youtube
-     - ``!cb youtube YouTube Channel ID #discord-channel vod``
+     - ``/youtube creator: YouTube Channel ID channel: #discord-channel type: vod``
      - This will bypass the dropdown, and directly add the YouTube Channel, if a valid ID is passed.
    * - youtube
-     - ``!cb youtube YouTube Channel ID #discord-channel both``
+     - ``/youtube creator: YouTube Channel ID channel: #discord-channel type: both``
      - This will bypass the dropdown, and directly add the YouTube Channel, if a valid ID is passed.
