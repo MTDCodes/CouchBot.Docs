@@ -57,6 +57,7 @@ Want to make a list of your favorite streamers, and get notified when they go li
     :caption: Command Guide:
 
     basicconfig
+    discordlive
     twitch
     youtube
     otherplatforms
