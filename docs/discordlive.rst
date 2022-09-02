@@ -8,7 +8,8 @@ Discord Live Setup
 
 **Use the following commands to configure live Discord announcements, like shown below:**
 
-![Screenshot1](img/screenshot1.png)
+.. image:: img/screenshot1.png
+   :width: 400
 
 1. To enable live announcements, first you need to set a Live channel. This will be shared with Discovery announcements.
 
@@ -34,7 +35,8 @@ Discord Live Setup
 * `message` will modify #4 in the screenshot.
 * `mention_role` will modify #5 in the screenshot.
 
-![Screenshot2](img/screenshot2.png)
+.. image:: img/screenshot2.png
+   :width: 400
 
 .. caution:: All of the above are OPTIONAL parameters. If you provide an empty option though .. it will reset the setting previously set.
 
