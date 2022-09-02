@@ -11,9 +11,9 @@ Discord Live Setup
 .. image:: img/screenshot1.png
    :width: 400
 
-1. To enable live announcements, first you need to set a Live channel. This will be shared with Discovery announcements.
+1. To enable live announcements, first you need to set a Live channel.
 
-`/channel live channel: #DiscordChannelToAnnounceIn`
+`/channel discordlive channel: #DiscordChannelToAnnounceIn`
 
 2. Next, you need to enable Discord Live Announcements via the Allow configuration.
 
