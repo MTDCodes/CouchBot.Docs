@@ -4,6 +4,8 @@
 Discord Live Setup
 ==============
 
+.. caution:: THIS IS NEWLY DEPLOYED. THERE MAY BE BUGS. SUBMIT FEEDBACK TO MATT - LETS MAKE THIS THING AWESOME!
+
 **Use the following commands to configure live Discord announcements, like shown below:**
 
 ![Screenshot1](img/screenshot1.png)
