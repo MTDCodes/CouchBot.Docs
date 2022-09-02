@@ -6,7 +6,7 @@ Discord Live Setup
 
 **Use the following commands to configure live Discord announcements, like shown below:**
 
-![Screenshot](img/DiscordLiveAnnouncements.png)
+![Screenshot1](img/screenshot1.png)
 
 1. To enable live announcements, first you need to set a Live channel. This will be shared with Discovery announcements.
 
@@ -24,15 +24,17 @@ Discord Live Setup
 1. Most of the message preceding the embed AND the embed contents itself are configurable.
 2. Type any variation of the command below .. 
 
-`/discordlive header: Custom Header description: Custom Description footer: Custom Footer message: Custom Message mention_role: @RoleToAnnounce`
+`/discordlive`
 
-* Header will modify #1 in the screenshot.
-* Description will modify #2 in the screenshot.
-* Footer will modify #3 in the screenshot.
-* Message will modify #4 in the screenshot.
-* Mention Role will modify #5 in the screenshot.
+* `header` will modify #1 in the screenshot.
+* `description` will modify #2 in the screenshot.
+* `footer` will modify #3 in the screenshot.
+* `message` will modify #4 in the screenshot.
+* `mention_role` will modify #5 in the screenshot.
 
-![Screenshot](img/CustomizeDiscordLiveAnnouncements.png)
+![Screenshot2](img/screenshot2.png)
+
+.. caution:: All of the above are OPTIONAL parameters. If you provide an empty option though .. it will reset the setting previously set.
 
 **Want to assign a role when these users go live?**
 
